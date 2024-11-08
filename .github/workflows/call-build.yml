@@ -8,6 +8,6 @@ on:
 
 jobs:
   call:
-    uses: hotio/build-workflow/.github/workflows/build-on-call.yml@master
-    secrets:
-      secrets.DOCKERHUB_TOKEN: ${{ secrets.DOCKERHUB_TOKEN }}
+    uses: reidjr2/build-workflow/.github/workflows/build-on-call.yml@master
+    secrets:  inherit
+      
