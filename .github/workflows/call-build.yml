@@ -10,4 +10,4 @@ jobs:
   call:
     uses: hotio/build-workflow/.github/workflows/build-on-call.yml@master
     secrets:
-      DOCKERHUB_TOKEN: ${{ secrets.DOCKERHUB_TOKEN }}
+      secrets.DOCKERHUB_TOKEN: ${{ secrets.DOCKERHUB_TOKEN }}
